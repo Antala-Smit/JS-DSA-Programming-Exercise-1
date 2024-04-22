@@ -1,0 +1,16 @@
+<script>
+    let arr = [10, 20, 30, 40, 50];
+    let pos = 2;
+    let value = 25;
+
+    if (pos >= 0 && pos < arr.length) {
+        for (let i = 0; i < arr.length; i++) {
+            if (i === pos) {
+                arr[i] = value;
+            }
+        }
+        console.log(arr);
+    } else {
+        console.log("Position is not found");
+    }
+</script>
